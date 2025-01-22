@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit';
+    background-color: #D5E1EF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    min-height: 100dvh;
+    grid-template-rows:  auto 1fr auto;
+}
+.card-container {
+    width: 100%;
+    padding: 1rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article {
+    width: 18%;
+    height: 60%;
+    padding: 1em;
+    background-color: white;
+    border-radius: 4%;
+    box-shadow: 0 6px 20px rgba(31, 49, 79, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.img-container {
+    width: 100%;
+    height: 60%;
+    border-radius: 4%;
+}
+
+.text-container {
+    padding: 1.45em;
+    text-align: center;
+}
+
+.title {
+    color: #1F314F;
+    line-height: 120%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: .9em;
+}
+
+.text {
+    color: #68778D;
+    letter-spacing: 0.2px;
+    line-height: 140%;
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 4%;
+}
+
+footer {
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%)
+}
