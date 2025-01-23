@@ -87,3 +87,20 @@ footer {
 footer a {
     color: hsl(228, 45%, 44%)
 }
+
+@media (min-width: 1440px) {
+    .text-container {
+        padding: 1.1em 1.1em 0;
+    }
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
