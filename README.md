@@ -22,7 +22,7 @@ My first Frontend Mentor challenge involved creating a QR code component using H
 These are the screenshots of the implemented solution:
 
 - **🖥️ Desktop version**  
-  ![Desktop](./images/QR-descktop.png)
+  ![Desktop](./images/QR-desktop.png)
 
 - **📱 Mobile version**  
   ![Mobile](./images/QR-mobile.png)
